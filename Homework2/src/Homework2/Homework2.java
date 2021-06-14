@@ -6,7 +6,9 @@ public class Homework2 {
 
 	public static void main(String[] args) {
 		
-		double tutar,kdvOran=0.18, kdvOran2=0.08;
+	
+
+		double tutar;
 		Scanner inp = new Scanner(System.in);
 		
 		System.out.println("ücret tutarýný giriniz");
@@ -14,14 +16,23 @@ public class Homework2 {
 	if(tutar==0 || tutar <1000) {
 		System.out.println("girilen  tutar 0 ve 1000 TL arasýnda  ");
 	
-		double kdvTutar = tutar * kdvOran;
-		System.out.println("KDV oraný %18 "+kdvTutar);
+		
+		System.out.println("KDV oraný %18 "+kdvTutar(tutar,kdvOran));
 		
 	}else {
 		System.out.println("girilen tutar 1000 TL den büyük");
 	
-		double kdvTutar = tutar * kdvOran2;
-		System.out.println("KDV oraný %8 "+kdvTutar);
+	
+		System.out.println("KDV oraný %8 "+kdvTutar2(tutar, kdvOran2));
 	}
-	 
-} }
+	
+	
+}
+
+	 public static double kdvTutar(double tutar,double kdvOran) {
+		 return tutar = tutar * kdvOran ;
+	 }
+	 public static double kdvTutar2(double tutar,double kdvOran2) {
+		 return tutar = tutar * kdvOran2 ;
+	 }
+}
