@@ -4,7 +4,7 @@ public class Harmonik {
 
 	public static void main(String[] args) {
 		 Scanner input = new Scanner(System.in);
-	        System.out.println("N sayýsýný giriniz :");
+	        System.out.println("N sayÃ½sÃ½nÃ½ giriniz :");
 	        double n = input.nextInt();
 	        double result = 0;
 	        while (n > 0) {
@@ -13,6 +13,7 @@ public class Harmonik {
 	        }
 
 	        System.out.println(result);
+		 System.out.println("test");
 	    }
 	
 
