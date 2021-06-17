@@ -1,6 +1,9 @@
 
 public class Homework26 {
 
+	public static void main(String[] args) {
+		
+	
 		for(int sayi=2 ; sayi <=100 ; sayi++) {
 			
 			int kontrol =0;
