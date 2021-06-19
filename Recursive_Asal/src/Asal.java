@@ -12,7 +12,7 @@ public class Asal {
         if (i * i > n)
             return true;
       
-        // Check for next divisor
+     
         return isAsal(n, i + 1);
     }
 	public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class Asal {
 	         if(isAsal(a, 2))
 	             System.out.println("Sayi asal");
 	         else
-	             System.out.println("Sayi asal deðil");
+	             System.out.println("Sayi asal deÃ°il");
 	    }
 
 	}
