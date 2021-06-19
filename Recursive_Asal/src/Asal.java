@@ -22,7 +22,7 @@ public class Asal {
 	         if(isAsal(a, 2))
 	             System.out.println("Sayi asal");
 	         else
-	             System.out.println("Sayi asal deðil");
+	             System.out.println("Sayi asal degil");
 	    }
 
 	}
