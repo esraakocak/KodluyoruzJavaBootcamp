@@ -3,20 +3,16 @@ import java.util.Scanner;
 public class HarmonikSeri {
 
 	public static void main(String[] args) {
-	     Scanner inp = new Scanner(System.in);
-	        System.out.println("N sayýsýný giriniz :");
-	        double a = inp.nextInt();
-	        double t = a;
-	        double result = 0;
-	        while (a > 0) {
-	            result += (1 / a);
-	            a--;
-	        }
+	       int i, n;
+        int dizi[] = {1, 2, 3, 4, 5};
+        double ort = 0;
 
-	        System.out.println(t + " Sayýsýnýn Harmonik Serisi= " + result);
-
-	    }
-
+        for (i = 0; i < dizi.length; i++) {
+            ort = ort + (1.0 / dizi[i]);
+        }
+        ort = dizi.length / ort;
+        System.out.println("Harmonik Ortalama : " + ort);
+    }
 	}
 
 
